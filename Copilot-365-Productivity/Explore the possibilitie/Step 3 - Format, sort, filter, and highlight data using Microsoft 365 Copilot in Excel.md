@@ -12,7 +12,8 @@ To get started, format your data in a [supported format](https://support.microso
 
 ## Let's get crafting
 
-First, download **Fabrikam Q1 marketing campaigns.xlsx** and save the
+First, download 
+![Fabrikam Q1 marketing campaigns.xlsx.](https://github.com/aviadfe/copilot-365-training/blob/main/Copilot-365-Productivity/Explore%20the%20possibilitie/docs/Fabrikam%20Q1%20marketing%20campaigns1.xlsx) and save the
 file to your OneDrive folder if you haven't yet done so.
 
 Open the spreadsheet in Excel and then open the Copilot pane by
@@ -38,7 +39,7 @@ below and follow along.
 | **Best prompt:** | Set clear Expectations — “and highlight the top and bottom campaign owners based off of net revenue” |
 | **Crafted prompt:** | `Sort this table [Table1] to look for the most impactful salesperson and highlight the top and bottom campaign owners based off of net revenue` | :contentReference[oaicite:4]{index=4}
 
-This prompt requires multiple steps to execute, a prompting technique called chaining where you ask Copilot to perform sequential, back-to-back commands to achieve a single goal. :contentReference[oaicite:5]{index=5}
+This prompt requires multiple steps to execute, a prompting technique called chaining where you ask Copilot to perform sequential, back-to-back commands to achieve a single goal.
 
 
 #### First and second prompts
