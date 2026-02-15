@@ -16,7 +16,6 @@ From the Copilot pane, you can begin creating a new presentation from a Word doc
 
 
 ## Let's get crafting
-------------------
 
 If you haven't done so yet, download the following files and save the file to your **OneDrive folder** so they appear in your MRU list:
 
@@ -26,27 +25,27 @@ Note
 
 Starting prompt:
 
-_Create a new PowerPoint presentation._
+```Create a new PowerPoint presentation.```
 
 In this simple prompt, you start with the basic **Goal**: _to build a new PowerPoint presentation._ However, there's no information about what the presentation is about or what it should look like.
 
+### Prompt guidance
+
+Here’s how to structure prompts so Copilot understands what you want it to create:
+
+| Element | Example |
+|---------|---------|
+| **Basic prompt** Start with a Goal: | "Create a new PowerPoint presentation about LLMs." |
+| **Good prompt** Add Context: | "We need to present the advantages and the capabilities of using LLMs to students." |
+| **Better prompt** Specify Source(s): | "…using the latest from /LLMsArchitecturesApplicationsandFutureInnovationsinArtificialIntelligence.docx." |
+| **Best prompt** Set clear Expectations: |  "Please include an overview of the architecture, its key features and benefits and a comparison between some LLMs models in the market. Please use simple language." |
 
 
-* Element: Basic prompt: Start with a Goal
-  * Example: Create a new PowerPoint presentation.
-* Element: Good prompt: Add Context
-  * Example: Adding Context can help Copilot understand what kind of document you want to create and what it will be used for."We need to present the product's features and benefits to potential clients."
-* Element: Better prompt: Specify Source(s)
-  * Example: Adding Sources can help Copilot where to look for specific information."...using the latest from /Market Trend Report- Protein shake.docx."
-* Element: Best prompt: Set clear Expectations
-  * Example: Lastly, adding Expectations can help Copilot understand how you want the document to be written and formatted."Please include an overview of the product, its key features and benefits and a comparison to similar products in the market. Please  use simple language."
-
-
-Note
-
-**Crafted prompt**:
-
-_Create a new PowerPoint presentation using the latest from **/Market Trend Report- Protein shake.docx**. We need to present the product's features and benefits to potential clients. Please include an overview of the product, its key features and benefits, and a comparison to similar products in the market. Please use simple language._
+> Note
+>
+> **Crafted prompt**:
+> 
+> _Create a new PowerPoint presentation using the latest from **/LLMsArchitecturesApplicationsandFutureInnovationsinArtificialIntelligence.docx**. We need to present the advantages, capabilities, features and benefits to students. Please include an overview of the LLMs, their key features and benefits, and a comparison between some similar LLMs models in the market. Please use simple language._
 
 With the **Goal**, **Context**, **Source**, and **Expectations** all laid out, Copilot has everything it needs to give you a great response.
 
@@ -56,9 +55,31 @@ As in the example, if you want Copilot to base your new presentation off a file 
 
 In the compose box, you can also enter "/" and the name of the file you'd like to reference, which will update the file options shown in the menu for selection.
 
-Important
+Prompts:
+Hebrew:
+```
+בהתבסס על המסמך האקדמי שנוצר בשלב הקודם, צור מצגת הדרכה לכיתה.
 
-You must have permission to access the files you're referencing, whether they're located in your organization's SharePoint or OneDrive and can be either Word or PowerPoint files.
+המצגת צריכה להיות בנויה באופן פדגוגי וברור, מחולקת לשקפים לפי הפרקים המרכזיים במסמך, ולכלול כותרת לכל שקף, נקודות עיקריות בתמציתיות (Bullets), דוגמאות היכן שנדרש, והדגשת מושגים מרכזיים. הימנע מהעמסת טקסט — כל שקף צריך להכיל רעיון מרכזי אחד בצורה ממוקדת וברורה.
+
+הוסף שקף פתיחה עם מטרות למידה, שקפי סיכום לכל פרק מרכזי, ושקף סיום הכולל שאלות לדיון כיתתי.
+```
+
+English
+```
+Based on the academic document created in the previous step, generate a classroom training presentation.
+
+The presentation should be pedagogically structured and clearly organized into slides according to the main chapters of the document. Each slide must include a clear title, concise bullet points, relevant examples where appropriate, and highlighted key concepts. Avoid excessive text—each slide should focus on one central idea presented clearly and succinctly.
+
+Include an opening slide with learning objectives, summary slides for each major section, and a final slide with discussion questions for classroom engagement.
+```
+
+Review the Copilot suggestion and generate the presentation.
+
+
+> Important
+> 
+> You must have permission to access the files you're referencing, whether they're located in your organization's SharePoint or OneDrive and can be either Word or PowerPoint files.
 
 ### Best practices when creating a presentation from a Word document
 

@@ -55,7 +55,7 @@ To access Copilot Chat, select on the Copilot icon located in the Ribbon home ta
 ![Screenshot of the Copilot icon in the Word ribbon.](https://learn.microsoft.com/en-us/training/wwl/create-draft-content-with-microsoft-copilot-microsoft-365/media/copilot-ribbon-word.png)
 
 
-Download the document: **_[ChatGPT and large language models in academia.docx](https://go.microsoft.com/fwlink/?linkid=2269123)_** and save the file to your **OneDrive folder** if you haven't yet done so.
+Download the document: **_[ChatGPT and large language models in academia.docx](https://github.com/aviadfe/copilot-365-training/blob/main/Copilot-365-Productivity/Explore%20the%20possibilitie/docs/LLMsArchitecturesApplicationsandFutureInnovationsinArtificialIntelligence.docx)_** and save the file to your **OneDrive folder** if you haven't yet done so.
 
 Open the document in Word and then open the **Copilot** pane by selecting the Copilot icon in the ribbon's **Home** tab. 
 
